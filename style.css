@@ -1,0 +1,25 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap:1em;
+}
+
+section:first-of-type{
+    border-radius: 2em 0 2em 2;
+}
+section:first-of-type{
+    border-radius: 2em 0 2em 0;
+}
+section:nth-of-type(odd){
+    border: 5px solid blue;
+    border-radius: 2em 0 2em 0;
+}
+
+section:nth-of-type(even){
+    border: 5px solid red;
+    border-radius: 2em 0 2em 0;
+}
+section:nth-of-type(odd){
+    background-color: #ccc;
+    color: #000;
+}
