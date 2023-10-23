@@ -1,7 +1,13 @@
+@media screen and(min-width: 480px){
+
+}
+
+
+
 main{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(6, 250px);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(10, 250px);
     gap: 20px 10px;
 }
 section{
