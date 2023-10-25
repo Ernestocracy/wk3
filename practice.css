@@ -1,0 +1,41 @@
+main {
+    background-color: conic gr;
+}
+.image1:hover{
+    filter: blur(6px);
+    cursor: pointer;
+}
+
+.image2:hover{
+    filter: brightness(260%);
+    cursor: pointer;
+}
+
+.image3:hover{
+    filter: drop-shadow(15px 15px 15px black);
+    cursor: pointer;
+}
+.image4:hover{
+    filter: grayscale(50%);
+    cursor: pointer;
+}
+.image5:hover{
+    filter: hue-rotate(60deg);
+    cursor: pointer;
+}
+.image6:hover{
+    filter: invert(75%);
+    cursor: pointer;
+}
+.image7:hover{
+    filter: opacity(80%);
+    cursor: pointer;
+}
+.image8:hover{
+    filter: saturate(67%);
+    cursor: pointer;
+}
+.image9:hover{
+    filter: calc(80%);
+    cursor: pointer;
+}
